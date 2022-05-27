@@ -24,6 +24,6 @@ module Conduit
     config.active_record.raise_in_transactional_callbacks = true
   end
   class Application < Rails::Application
-    config.web_console.permissions = '10.0.2.2'
+    config.web_console.whiny_requests = false
   end
 end
